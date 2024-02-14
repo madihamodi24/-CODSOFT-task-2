@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b356ad9dc8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <header>
+        <a class="logo">Portfolio</a>
+    <nav>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#skills">My Skills</a></li>
+        <li><a href="#mywork">My Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+     </ul>    
+    </nav></header>
+    <div class="header-text">
+        <div class="typewriter"> 
+        <h1>Hi,<br>I'm  <span> Madiha Modi</span></h1><br><h5>Beginner in Web Development, 
+            passionate about coding and creating </h5><h5>user-friendly experiences.</h5>
+    </div>
+ </div><br><br><br><br>
+<!-- --------------------about----------------------- -->
+<br><br><br><section>
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image.jpg" >
+            </div>
+            <div class="about-col-2">
+            <h1 class="title">About Me</h1><br>
+            <p style="color:white;font-family:Georgia, 'Times New Roman', Times, serif
+            ;font-size: 20px">"As a passionate BCA student, I thrive on exploring the ever-evolving landscape
+                of technology. Currently pursing my graduation at Ness Wadia College of Commerce.
+                Eager to contribute my skilld in [Programming Languages] to innovative project.
+                Always seeking new opportunities to learn and grow in the dynamic world of IT."
+            </p><br><br><br>
+            <div class="tab-title">
+                <p class="tab-links active-link" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+             </div>
+             <div class="tab-contents active-tab" id="Experience">
+                <ul>
+                    <li><span>Jan 2024 - Current</span><br>Web Development Intern at Codsoft</li><br>
+                    <li><span>Nov 2023 - Dec 2023</span><br>Web Development Intern at Suvidha Foundation</li><br>
+
+                </ul>
+             </div>
+             <div class="tab-contents" id="Education"> 
+                <ul>
+                    <li><span>Current</span><br>Pursing graduation at Ness Wadia College of Commerce.</li><br>
+                    <li><span>2023</span><br>HSC from Abeda Inamdar Junior College for Girls.</li><br>
+                    <li><span>2021</span><br>SSC from Anglo Urdu Girls High School.</li>
+
+                </ul>
+             </div>
+            </div>
+        </div>
+    </div>
+</div></section><br><br><br><br>
+<!-- --------------------skills-------------- -->
+<div id="skills">
+    <section class="skill-set">
+        <div class="skills">
+            <h1>My Skills</h1>
+        </div>
+
+
+        <div class="row">
+            <div class="column">
+                <img src="html5.jpg" height="150px" width="150px">
+            </div>
+            <div class="column">
+                <img src="c.jpg" height="150px" width="150px">
+            </div>
+            <div class="column">
+                <img src="js.jpg" height="150" width="150px">
+            </div>
+            <div class="column">
+                <img src="css.jpg" height="150px" width="150px">
+            </div>
+            <div class="column">
+                <img src="cyber.jpg" height="150px" width="150px">
+            </div>
+    </section>
+</div>
+
+<!-- ----------------------------MY WORK-------------------------------------- -->
+<div id="mywork">
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work">
+        <img src="work.JPG">
+        <div class="layer">
+            <h2>Offer Letter Generator Website</h2>
+                <p>This is website is designed to stremline the process of creating and issusing
+                    offer letters to candidates who apply for job position within the organization.</p>
+                <a href="file:///C:/Users/Lenovo/Desktop/Madiha/Project/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>    
+    
+        </div>
+    </div>
+</div>
+</div><br><br><br><br><br>
+
+<!-- --------------------------contact-------------------- -->
+<br><br><div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub">Contact Me</h1><br><br>
+                <p style="font-size: 20px;"><i class="fa-solid fa-paper-plane"></i> modimadiha@gmail.com</p>
+                <div class="div social-icons">
+                <a href="https://www.linkedin.com/in/madiha-modi-abaa75283/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_
+                medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/madiha_modi24/?igsh=MTlsd3VvMmFidGR2NA%3D%3D"><i class="fa-brands fa-instagram"></i><a>
+                </div><br>
+                <a href="CV.pdf.pdf" download  class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>   
+            </div>
+        </div>
+    </div>
+   
+</div>
+<!-- --------------------------js-------------------- -->
+<script src="script.js" ></script>
+</body>
+<footer>
+    <div class="copyright">
+        <p> Copyright © 2024 Madiha Modi.</p>
+    </div>
+</footer>
+</html>
